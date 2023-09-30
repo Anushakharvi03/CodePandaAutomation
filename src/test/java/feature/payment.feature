@@ -23,3 +23,11 @@ Scenario: payment with COD
 
 When user enter username and password
 Then validate successfull login
+
+
+#@Buffer
+#Scenario: verify video is loading or not
+#
+##Given user launch site url
+#When cursor hover on the play button
+#Then click on play button

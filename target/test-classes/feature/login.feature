@@ -17,6 +17,14 @@ When user enter username and password
 And user click on button
 Then validate error login
 
+#
+#@Buffer
+#Scenario: verify video is loading or not
+#
+##Given user launch site url
+#When cursor hover on the play button
+#Then click on play button
+
 
 
 

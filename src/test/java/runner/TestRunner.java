@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 //mention path of feature file in 'features=' and mention path of stepDefinition package in 'glue='
-@CucumberOptions(features="src/test/java/feature",glue={"stepDefinition", "helper"},tags="@Reg",
+@CucumberOptions(features="src/test/java/feature",glue={"stepDefinition", "helper"},tags="@Buffer",
 plugin="html:target/testReport/test.html")
 public class TestRunner {
 

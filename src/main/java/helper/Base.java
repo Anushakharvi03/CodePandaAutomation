@@ -65,7 +65,7 @@ public class Base {
 		//driver.get("https://www.saucedemo.com/");
 		driver.get(prop.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 	}
 	
 	//postcondition @After
